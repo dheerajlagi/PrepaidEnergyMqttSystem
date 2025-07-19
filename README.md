@@ -8,7 +8,7 @@ This project implements a **prepaid energy management system** using an **ESP826
 
 ---
 
-## 📷 System Overview
+## System Overview
 
 - **Hardware Platform:** NodeMCU ESP8266
 - **Cloud Backend:** Adafruit IO (MQTT)
@@ -19,7 +19,7 @@ This project implements a **prepaid energy management system** using an **ESP826
 
 ---
 
-## 🧰 Hardware Requirements
+## Hardware Requirements
 
 | Component              | Description                   |
 |------------------------|-------------------------------|
@@ -42,11 +42,11 @@ This project implements a **prepaid energy management system** using an **ESP826
 
 ---
 
-## 🌐 Network and MQTT Configuration
+##  Network and MQTT Configuration
 
 Update these macros in the sketch to match your WiFi and Adafruit IO credentials:
 
-```cpp
+
 #define WLAN_SSID    "your-ssid"
 #define WLAN_PASS    "your-password"
 
